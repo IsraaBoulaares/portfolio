@@ -5,5 +5,5 @@
     <rect x="10" y="22" width="40" height="8" rx="3"></rect>
     <path d="M10 40 q10 12 30 0" stroke="#ffffff" stroke-width="3" fill="none"></path>
   </g>
-  <text x="50" y="94" font-family="Segoe UI, Arial" font-size="9" fill="#ffffff" text-anchor="middle">JavaFX</text>
+  <text x="50" y="94" font-family="Segoe UI, Arial" font-size="9" fill="#ffffff" text-anchor="middle">javafx</text>
 </svg>
