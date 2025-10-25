@@ -16,7 +16,7 @@ export const skillsData = [
   'MongoDB',
   'MySQL',
   'Oracle',
-  'RESTAPIs',
+  'RESTApis',
   'Git',
   'Docker',
   'Jenkins',
@@ -29,7 +29,7 @@ export const skillsData = [
   'OpenAIAPI',
   'Figma',
   'Firebase',
-  'UX/UI',
+  'UXUI',
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

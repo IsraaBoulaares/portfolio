@@ -4,7 +4,7 @@ import afterEffects from '../app/assets/svg/skills/after-effects.svg';
 import angular from '../app/assets/svg/skills/angular.svg';
 import aws from '../app/assets/svg/skills/aws.svg';
 import azure from '../app/assets/svg/skills/azure.svg';
-import restapi from '../app/assets/svg/skills/RESTApis.svg';
+import RESTApis from '../app/assets/svg/skills/RESTApis.svg';
 
 import blender from '../app/assets/svg/skills/blender.svg';
 import bootstrap from '../app/assets/svg/skills/bootstrap.svg';
@@ -97,21 +97,21 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg';
 import linux from '../app/assets/svg/skills/linux.svg';
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg';
 import fastapi from '../app/assets/svg/skills/fastapi.svg';
-import FlutterFlow from '../app/assets/svg/skills/flutterflow.svg';
+import flutterflow from '../app/assets/svg/skills/flutterflow.svg';
 
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
-    case 'UX/UI':
+    case 'uxui':
       return uxui; 
-    case 'FlutterFlow':
-      return FlutterFlow;
+    case 'flutterflow':
+      return flutterflow;
     case 'flask':
       return flask ; 
-    case 'RESTAPIs':
-      return restapi ;
+    case 'restapis':
+      return RESTApis ;
     case 'javafx': 
     return javafx ; 
     case 'openaiapi':
