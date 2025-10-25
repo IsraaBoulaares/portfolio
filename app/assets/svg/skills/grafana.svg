@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <rect rx="12" width="100" height="100" fill="#f05b2a"></rect>
+  <circle cx="50" cy="50" r="22" fill="#ffffff" opacity="0.08"></circle>
+  <text x="50" y="56" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">Grafana</text>
+</svg>

@@ -1,0 +1,47 @@
+{
+  "navbar": {
+    "about": "ABOUT",
+    "experience": "EXPERIENCE",
+    "skills": "SKILLS",
+    "education": "EDUCATION",
+    "blogs": "BLOGS",
+    "projects": "PROJECTS",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "hello": "Hello,",
+    "thisIs": "This is",
+    "professional": "I'm a Professional",
+    "contactMe": "Contact me",
+    "getResume": "Get Resume"
+  },
+  "about": {
+    "title": "ABOUT ME",
+    "whoIAm": "Who I am?"
+  },
+  "experience": {
+    "title": "Experiences"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "education": {
+    "title": "Educations"
+  },
+  "projects": {
+    "title": "PROJECTS"
+  },
+  "contact": {
+    "title": "Contact with me",
+    "description": "If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests.",
+    "yourName": "Your Name:",
+    "yourEmail": "Your Email:",
+    "yourMessage": "Your Message:",
+    "sendMessage": "Send Message",
+    "sendingMessage": "Sending Message...",
+    "allFieldsRequired": "All fields are required!",
+    "validEmail": "Please provide a valid email!",
+    "messageSent": "Message sent successfully!",
+    "messageFailed": "Failed to send message. Please try again."
+  }
+}

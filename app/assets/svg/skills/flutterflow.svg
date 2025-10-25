@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <rect rx="12" width="100" height="100" fill="#02569b"></rect>
+  <polygon points="20,70 60,30 80,30 40,70" fill="#66b2ff"></polygon>
+  <text x="50" y="92" font-family="Segoe UI, Arial" font-size="8" fill="#ffffff" text-anchor="middle">FlutterFlow</text>
+</svg>

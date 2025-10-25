@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <rect rx="12" width="100" height="100" fill="#d3a625"></rect>
+  <circle cx="50" cy="36" r="18" fill="#000000" opacity="0.06"></circle>
+  <text x="50" y="62" font-family="Segoe UI, Arial" font-size="13" fill="#1a202c" text-anchor="middle">Jenkins</text>
+</svg>

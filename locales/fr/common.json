@@ -1,0 +1,47 @@
+{
+  "navbar": {
+    "about": "À PROPOS",
+    "experience": "EXPÉRIENCE",
+    "skills": "COMPÉTENCES",
+    "education": "ÉDUCATION",
+    "blogs": "BLOGS",
+    "projects": "PROJETS",
+    "contact": "CONTACT"
+  },
+  "hero": {
+    "hello": "Bonjour,",
+    "thisIs": "Ceci est",
+    "professional": "Je suis un professionnel",
+    "contactMe": "Contactez-moi",
+    "getResume": "Télécharger le CV"
+  },
+  "about": {
+    "title": "À PROPOS DE MOI",
+    "whoIAm": "Qui suis-je ?"
+  },
+  "experience": {
+    "title": "Expériences"
+  },
+  "skills": {
+    "title": "Compétences"
+  },
+  "education": {
+    "title": "Éducations"
+  },
+  "projects": {
+    "title": "PROJETS"
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "description": "Si vous avez des questions ou des préoccupations, n'hésitez pas à me contacter. Je suis ouvert à toute opportunité de travail correspondant à mes compétences et intérêts.",
+    "yourName": "Votre nom :",
+    "yourEmail": "Votre email :",
+    "yourMessage": "Votre message :",
+    "sendMessage": "Envoyer le message",
+    "sendingMessage": "Envoi du message...",
+    "allFieldsRequired": "Tous les champs sont obligatoires !",
+    "validEmail": "Veuillez fournir un email valide !",
+    "messageSent": "Message envoyé avec succès !",
+    "messageFailed": "Échec de l'envoi du message. Veuillez réessayer."
+  }
+}
