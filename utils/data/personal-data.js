@@ -1,18 +1,17 @@
 export const personalData = {
   name: "Israa Boulaares",
   profile: "/profile.png",
-  designation: "Software Developer",
+  designation: "Full-Stack Developer",
   description: `
-    I'm Israa Boulaares, a passionate <span style="font-weight: bold; color: #fde68a;">Software Engineer</span> from Tunisia currently pursuing an <span style="font-weight: bold; color: #fde68a;">Integrated Computer Engineering degree</span> at ESPRIT. With hands-on experience in <span style="font-weight: bold; color: #fde68a;">AI & E-Health</span>, <span style="font-weight: bold; color: #fde68a;">DevOps</span>, and <span style="font-weight: bold; color: #fde68a;">Full-Stack Web Development</span>, I enjoy building meaningful solutions that improve everyday life.<br><br>
-    My work spans across <span style="font-weight: bold; color: #fde68a;">AI-driven career platforms</span>, <span style="font-weight: bold; color: #fde68a;">LMS integrations</span>, and <span style="font-weight: bold; color: #fde68a;">cloud-native CI/CD pipelines</span>, using technologies like <span style="font-weight: bold; color: #fde68a;">React.js</span>, <span style="font-weight: bold; color: #fde68a;">Node.js</span>, <span style="font-weight: bold; color: #fde68a;">Flask</span>, <span style="font-weight: bold; color: #fde68a;">MongoDB</span>, <span style="font-weight: bold; color: #fde68a;">Docker</span>, and <span style="font-weight: bold; color: #fde68a;">Prometheus</span>.<br><br>
-    I’ve interned at startups and research-led companies where I contributed to <span style="font-weight: bold; color: #fde68a;">automating clinical documentation</span>, <span style="font-weight: bold; color: #fde68a;">modernizing school management systems</span>, and building cross-platform apps with <span style="font-weight: bold; color: #fde68a;">Symfony</span>, <span style="font-weight: bold; color: #fde68a;">JavaFX</span>, and <span style="font-weight: bold; color: #fde68a;">FlutterFlow</span>.<br><br>
-    Outside of tech, I’m a creative team player and student leader — having served as <span style="font-weight: bold; color: #fde68a;">Media Manager at Enactus INSAT</span> and led sponsorship efforts in innovation bootcamps. I believe in technology with purpose — solving real-world problems while learning and growing with every line of code.
+    I'm Israa Boulaares, a final-year <span style="font-weight: bold; color: #fde68a;">Computer Science engineering student</span> from Tunisia who ships production-grade full-stack systems — not just coursework. On my current graduation project, I identified and fixed <span style="font-weight: bold; color: #fde68a;">5 critical security vulnerabilities</span> in a live SaaS platform, and built a <span style="font-weight: bold; color: #fde68a;">RAG-powered AI content assistant</span> using Groq and MongoDB Atlas Vector Search.<br><br>
+    I'm comfortable owning a feature end-to-end: <span style="font-weight: bold; color: #fde68a;">React/Angular</span> front ends, <span style="font-weight: bold; color: #fde68a;">Django/Spring Boot/NestJS/Symfony</span> back ends, and the AI layer connecting them. Recent work spans <span style="font-weight: bold; color: #fde68a;">OAuth integrations</span> across 5 providers, an <span style="font-weight: bold; color: #fde68a;">11-stage CI/CD pipeline</span> (Jenkins, Docker, SonarQube), and a clinical-data extraction pipeline using regex and fuzzy-matching against ICD-10/ICD-11 code tables.<br><br>
+    Graduating September 2026 — actively looking for my first full-time full-stack role. Open to relocation (Europe) or remote.
   `,
   email: "israa.boulaares@esprit.tn",
   phone: "+21653721027",
   address: "Tunis, Tunisia",
   github: "https://github.com/IsraaBoulaares",
   facebook: "https://www.facebook.com/israa.boulares.16?locale=fr_FR",
-  linkedIn: "https://www.linkedin.com/in/israa-boulaares-a7133432b/",
+  linkedIn: "https://www.linkedin.com/in/israaboulaares/",
 resume: "/Israa_Boulaares_Resume.pdf",
 };
