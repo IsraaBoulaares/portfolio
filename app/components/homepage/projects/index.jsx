@@ -1,9 +1,14 @@
 "use client";
 
 import { projectsData } from '@/utils/data/projects-data';
+import { useState } from 'react';
 import ProjectCard from './project-card';
 
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+  const visibleProjects = showAll
+    ? projectsData
+    : projectsData.filter((project) => project.featured);
 
   return (
     <div id='projects' className="relative z-50  my-12 lg:my-24">
@@ -19,7 +24,7 @@ const Projects = () => {
 
       <div className="pt-24">
         <div className="flex flex-col gap-6">
-          {projectsData.map((project, index) => (
+          {visibleProjects.map((project, index) => (
             <div
               id={`sticky-card-${index + 1}`}
               key={index}
@@ -30,6 +35,15 @@ const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center mt-10">
+          <button
+            type="button"
+            onClick={() => setShowAll((value) => !value)}
+            className="rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-6 py-3 text-sm font-medium uppercase tracking-wider text-white transition-all duration-200 hover:opacity-90"
+          >
+            {showAll ? 'Show fewer projects' : 'More projects (coursework)'}
+          </button>
         </div>
       </div>
     </div>

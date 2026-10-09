@@ -1,11 +1,12 @@
 export const personalData = {
   name: "Israa Boulaares",
   profile: "/profile.png",
-  designation: "Full-Stack Developer",
+  designation: "Full-Stack Engineer",
+  tagline: "NestJS · React · AI-powered SaaS",
   description: `
-    I'm Israa Boulaares, a final-year <span style="font-weight: bold; color: #fde68a;">Computer Science engineering student</span> from Tunisia who ships production-grade full-stack systems — not just coursework. On my current graduation project, I identified and fixed <span style="font-weight: bold; color: #fde68a;">5 critical security vulnerabilities</span> in a live SaaS platform, and built a <span style="font-weight: bold; color: #fde68a;">RAG-powered AI content assistant</span> using Groq and MongoDB Atlas Vector Search.<br><br>
-    I'm comfortable owning a feature end-to-end: <span style="font-weight: bold; color: #fde68a;">React/Angular</span> front ends, <span style="font-weight: bold; color: #fde68a;">Django/Spring Boot/NestJS/Symfony</span> back ends, and the AI layer connecting them. Recent work spans <span style="font-weight: bold; color: #fde68a;">OAuth integrations</span> across 5 providers, an <span style="font-weight: bold; color: #fde68a;">11-stage CI/CD pipeline</span> (Jenkins, Docker, SonarQube), and a clinical-data extraction pipeline using regex and fuzzy-matching against ICD-10/ICD-11 code tables.<br><br>
-    Graduating September 2026 — actively looking for my first full-time full-stack role. Open to relocation (Europe) or remote.
+    I'm Israa Boulaares, a <span style="font-weight: bold; color: #fde68a;">Computer Science engineer</span> (ESPRIT, 2026) from Tunisia who ships production-grade full-stack systems. During my graduation internship at KothonTech GmbH, I co-built a two-module <span style="font-weight: bold; color: #fde68a;">SaaS platform</span> (an ERP/ops suite and an AI LinkedIn content studio) with NestJS, React 19 and MongoDB Atlas. I built its <span style="font-weight: bold; color: #fde68a;">RAG-powered AI content assistant</span> on Groq and MongoDB Atlas Vector Search, and I audited the codebase on my own initiative, fixing <span style="font-weight: bold; color: #fde68a;">5 critical security vulnerabilities</span> along with other production issues.<br><br>
+    I'm comfortable owning a feature end-to-end: <span style="font-weight: bold; color: #fde68a;">React/Angular</span> front ends, <span style="font-weight: bold; color: #fde68a;">NestJS/Django/Spring Boot/Symfony</span> back ends, and the AI layer connecting them. Earlier work spans <span style="font-weight: bold; color: #fde68a;">OAuth integrations</span> across 5 providers, an <span style="font-weight: bold; color: #fde68a;">11-stage CI/CD pipeline</span> (Jenkins, Docker, SonarQube), and a clinical-data extraction pipeline using regex and fuzzy-matching against ICD-10/ICD-11 code tables.<br><br>
+    Available now for my first full-time full-stack role. Open to relocation (Europe) or remote. Languages: Arabic (native), French (C1), English (C1).
   `,
   email: "israa.boulaares@esprit.tn",
   phone: "+21653721027",
@@ -13,5 +14,5 @@ export const personalData = {
   github: "https://github.com/IsraaBoulaares",
   facebook: "https://www.facebook.com/israa.boulares.16?locale=fr_FR",
   linkedIn: "https://www.linkedin.com/in/israaboulaares/",
-resume: "/Israa_Boulaares_Resume.pdf",
+  resume: "/Israa_Boulaares_Resume.pdf",
 };

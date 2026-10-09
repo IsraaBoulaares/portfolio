@@ -98,12 +98,21 @@ import linux from '../app/assets/svg/skills/linux.svg';
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg';
 import fastapi from '../app/assets/svg/skills/fastapi.svg';
 import flutterflow from '../app/assets/svg/skills/flutterflow.svg';
+import nestjs from '../app/assets/svg/skills/nestjs.svg';
 
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'nestjs':
+      return nestjs;
+    case 'fastapi':
+      return fastapi;
+    case 'scikit-learn':
+      return scikitlearn;
+    case 'spring boot':
+      return java;
     case 'uxui':
       return uxui; 
     case 'flutterflow':

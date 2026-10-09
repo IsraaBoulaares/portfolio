@@ -11,9 +11,18 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Israa Boulaares - Software Developer",
+  metadataBase: new URL("https://israaboulaares-portfolio.vercel.app"),
+  title: "Israa Boulaares | Full-Stack Engineer (NestJS, React, AI)",
   description:
-    "This is the portfolio of Israa Boulaares. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Computer Science engineer (ESPRIT, 2026) building production full-stack SaaS with NestJS, React and MongoDB, including RAG-powered AI features. Open to full-stack roles in Europe or remote.",
+  openGraph: {
+    title: "Israa Boulaares | Full-Stack Engineer",
+    description:
+      "NestJS · React · AI-powered SaaS. Open to full-stack roles in Europe or remote.",
+    url: "/",
+    type: "website",
+    images: [{ url: "/card.png" }],
+  },
 };
 
 export default function RootLayout({ children }) {

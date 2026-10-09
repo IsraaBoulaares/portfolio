@@ -1,5 +1,24 @@
 export const projectsData = [
   {
+    id: 0,
+    name: "KothonTech Ops & Persona",
+    description:
+      "Two-module SaaS platform built during my graduation internship at KothonTech GmbH: Ops (CRM, VAT-compliant invoicing, billing, e-signature contracts, developer allocation) and Persona (an AI LinkedIn content studio with a RAG assistant on Groq + MongoDB Atlas Vector Search and a Chrome extension). ~82k LOC over 7 Agile sprints, 35+ Jest/Playwright tests, SonarQube quality gate passed, 5 critical security vulnerabilities fixed. Private company repository.",
+    tools: [
+      "NestJS",
+      "React 19",
+      "MongoDB Atlas",
+      "RAG",
+      "Groq",
+      "FastAPI",
+      "n8n",
+    ],
+    role: "Full-Stack Engineer (PFE Intern)",
+    link: "",
+    demo: "",
+    featured: true,
+  },
+  {
     id: 1,
     name: "LMS Data Integration for Personalized Learning",
     description:
@@ -17,6 +36,7 @@ export const projectsData = [
     role: "Full Stack Developer",
     link: "https://github.com/IsraaBoulaares/EDADVANCE.git",
     demo: "",
+    featured: true,
   },
   {
     id: 2,
@@ -32,6 +52,7 @@ export const projectsData = [
     role: "Full Stack Developer",
     link: "https://github.com/IsraaBoulaares/4TWIN2-G5-kaddem1.0.0/tree/IsraaBoulaares-4TWIN2-G5",
     demo: "",
+    featured: true,
   },
   {
     id: 3,
@@ -48,6 +69,7 @@ export const projectsData = [
     role: "E-Health Intern",
     link: "https://github.com/IsraaBoulaares/ai-medical-reports.git",
     demo: "",
+    featured: true,
   },
   {
     id: 4,
@@ -68,6 +90,7 @@ export const projectsData = [
     role: "Full Stack Developer",
     link: "https://github.com/IsraaBoulaares/FitFusionJava.git",
     demo: "",
+    featured: true,
   },
   {
     id: 6,

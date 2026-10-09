@@ -61,7 +61,7 @@ function Experience() {
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                          <p className="text-base sm:text-xl mb-2 font-medium">
                             {experience.title}
                           </p>
                           <p className="text-sm sm:text-base">
@@ -69,6 +69,22 @@ function Experience() {
                           </p>
                         </div>
                       </div>
+                      {experience.highlights?.length > 0 && (
+                        <ul className="relative px-3 pb-3 text-xs sm:text-sm text-gray-300 list-disc list-inside space-y-1">
+                          {experience.highlights.map((item, i) => (
+                            <li key={i}>{item}</li>
+                          ))}
+                        </ul>
+                      )}
+                      {experience.tags?.length > 0 && (
+                        <div className="relative flex flex-wrap gap-2 px-3 pb-2">
+                          {experience.tags.map((tag) => (
+                            <span key={tag} className="rounded-full border border-[#1b2c68a0] bg-[#11152c] px-3 py-1 text-xs text-[#16f2b3]">
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   </GlowCard>
                 ))
