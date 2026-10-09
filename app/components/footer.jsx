@@ -20,8 +20,7 @@ function Footer() {
               {personalData.name}
             </h3>
             <p className="text-sm text-gray-300 leading-relaxed">
-              {personalData.designation} passionate about building innovative
-              solutions with modern technologies.
+              {personalData.designation} · {personalData.tagline}
             </p>
             <div className="flex flex-col space-y-2 py-5 text-sm text-gray-400">
               <div className="flex items-center gap-2">
@@ -79,12 +78,6 @@ function Footer() {
                 className="text-gray-300 hover:text-[#16f2b3] transition-colors"
               >
                 Education
-              </Link>
-              <Link
-                href="/blog"
-                className="text-gray-300 hover:text-[#16f2b3] transition-colors"
-              >
-                LinkedIn Posts
               </Link>
             </div>
           </div>
