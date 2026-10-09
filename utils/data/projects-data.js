@@ -3,7 +3,7 @@ export const projectsData = [
     id: 0,
     name: "KothonTech Ops & Persona",
     description:
-      "Two-module SaaS platform built during my graduation internship at KothonTech GmbH: Ops (CRM, VAT-compliant invoicing, billing, e-signature contracts, developer allocation) and Persona (an AI LinkedIn content studio with a RAG assistant on Groq + MongoDB Atlas Vector Search and a Chrome extension). ~82k LOC over 7 Agile sprints, 35+ Jest/Playwright tests, SonarQube quality gate passed, 5 critical security vulnerabilities fixed. Private company repository.",
+      "Two-module SaaS platform built during my graduation internship at KothonTech GmbH: Ops (CRM, VAT-compliant invoicing, billing, e-signature contracts, developer allocation) and Persona (an AI LinkedIn content studio with a RAG assistant on Groq + MongoDB Atlas Vector Search and a Chrome extension). ~82k LOC over 7 Agile sprints, 35+ Jest/Playwright tests, SonarQube quality gate passed, 10+ security issues fixed. Private company repository.",
     tools: [
       "NestJS",
       "React 19",
