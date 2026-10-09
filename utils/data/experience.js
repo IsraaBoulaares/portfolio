@@ -8,7 +8,7 @@ export const experiences = [
     highlights: [
       "Designed and built a two-module SaaS platform on my own (CRM, VAT-compliant invoicing, e-signature contracts, AI LinkedIn studio) across 7 Agile sprints, ~82k LOC.",
       "Built a RAG assistant on Groq (Qwen) + MongoDB Atlas Vector Search; worked on a FastAPI/scikit-learn service with 3 predictive models.",
-      "Audited the codebase unprompted and fixed 10+ security issues (including privilege escalation and unguarded RBAC endpoints); added 35+ Jest/Playwright tests and passed the SonarQube quality gate.",
+      "Audited the codebase unprompted and fixed 10+ security issues (including privilege escalation and unguarded RBAC endpoints); 262 automated tests (Jest, Vitest, Playwright) and a passed SonarQube quality gate.",
     ],
   },
   {
